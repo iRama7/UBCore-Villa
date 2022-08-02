@@ -1,0 +1,19 @@
+name: UBCore-Villa
+version: '${project.version}'
+main: rama.ubcvilla.UBCoreVilla
+api-version: 1.17
+prefix: UBCore
+authors: [ ImRama ]
+description: Plugin Core de UnBloque (Villa)
+commands:
+  minas:
+    description: Teletransportarse a Minas.
+  nether:
+    description: Teletransportarse al Nether.
+  dragon:
+    description: Teletransportarse al dragon.
+  parcelas:
+    description: Teletransportarse a parcelas.
+  villa:
+    description: Teletransportarse a villa.
+    aliases: [spawn]
